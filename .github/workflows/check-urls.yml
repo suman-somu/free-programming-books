@@ -9,7 +9,7 @@ jobs:
       pull-requests: read
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: trilom/file-changes-action@v1.2.4
         id: file_changes
         with:
